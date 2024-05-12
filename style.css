@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 body{
     user-select: none;
@@ -50,6 +51,7 @@ header{
 }
 .heading h1{
     font-size: 26px;
+    font-weight: 400;
     text-align: center;
 }
 .portal a{
@@ -66,7 +68,7 @@ header{
 }
 .education-heading span{
     color: #687078;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 15px;
 }
 
@@ -102,6 +104,7 @@ header{
     border: 1px solid #ccc;
     border-bottom: 1px solid #fff;
     font-size: 15px;
+    font-weight: 400;
     color: #006fb7;
     cursor: pointer;
 }
@@ -130,7 +133,8 @@ header{
 }
 .options label{
     color: #006fb7;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 300;
 }
 .options input,select{
     width: 100%;
@@ -138,6 +142,7 @@ header{
     border: 1px solid green;
     border-radius: 5px;
     font-size: 18px;
+    font-weight: 400;
     outline: none;
     transition: all 400ms ease-in-out;
 }
@@ -205,6 +210,7 @@ button{
     width: 100%;
     padding: 15px 0;
     font-size: 19px;
+    font-weight: 300;
     color: #fff;
     background-color: #006fb7;
     border: none;
@@ -252,9 +258,11 @@ button{
     text-align: center;
     margin-top: 30px;
     font-size: 12px;
+    font-weight: 400;
 }
 .id-card table tr th{
     background-color: #aaaaaaad;
+    font-weight: 500;
 }
 .id-card table th{
     background-color: #fafafa;
@@ -326,11 +334,14 @@ button{
     border: 3px solid green;
 }
 .front-side h1{
-    font-weight: lighter;
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 26px;
 }
 .front-side p{
     font-size: 18px;
+}
+.front-side strong{
+    font-weight: 400;
 }
 .back-side{
     border: 1px dashed #000;
@@ -359,7 +370,7 @@ button{
     text-transform: uppercase;
     border-bottom: 1px solid #000;
     width: 60%;
-    font-weight: lighter;
+    font-weight: 400;
 }
 .qrCode{
     display: flex;
