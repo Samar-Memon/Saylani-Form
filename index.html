@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Saylani FORM | Samar Raza</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./Images/logo.png" alt="" class="logoImg">
+            </div> <!--header-child-->
+            <div class="icons-heading-portal">
+                <div class="icons">
+                    <a href="https://www.facebook.com/saylani.smit" target="_blank"><img src="./Images/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/saylanimassittraining/" target="_blank"><img src="./Images/instagram.png" alt=""></a>
+                    <a href="https://www.youtube.com/@SaylaniMassITTraining" target="_blank"><img src="./Images/youtube.png" alt=""></a>
+                </div> <!--icons-->
+                <div class="heading"><h1>Registration Form-SMIT</h1></div> <!--heading-->
+                <div class="portal">
+                    <a href="https://student.saylaniwelfare.com/" target="_blank"><i class="fa-solid fa-user-graduate"></i> Student Portal</a>
+                </div> <!--portal-->
+            </div> <!--icons-heading-portal-->
+            <div class="education-heading">
+                <span>Services - Education - Regitration</span>
+            </div> <!--education-heading-->
+        </header>
+        <div class="buttons-div">
+            <div>
+                <span class="active" id="reg">Regitration</span>
+                <span id="down">Download Id Card</span>
+                <span id="res">Results</span>
+            </div>
+        </div> <!--buttons-div-->
+
+
+        <div class="user-details">
+            <div class="row full">
+                <div class="options">
+                    <label for="city">Select City</label>
+                    <select id="city">
+                        <option value="select-city">Select City</option>
+                        <option value="karachi">Karachi</option>
+                        <option value="lahore">Lahore</option>
+                        <option value="faisalabad">Faisalabad</option>
+                        <option value="islamabad">Islamabad</option>
+                    </select>
+                </div> <!--options-->
+
+                <div class="options">
+                    <label for="course">Select Course or Event</label>
+                    <select id="course">
+                        <option value="select course or event">Select Course or Event</option>
+                        <option value="python">Python</option>
+                        <option value="Graphic Designing">Graphic Designing</option>
+                        <option value="Web And App Development">Web and App Development</option>
+                        <option value="AI Chatbot">AI chatbot</option>
+                    </select>
+                </div> <!--options-->
+            </div> <!--row-->
+                
+            <div class="row full">
+                <div class="options">
+                    <label for="campus">Select Campus</label>
+                    <select id="campus">
+                        <option value="select campus">Select Campus</option>
+                        <option value="bahadurabad">Bahadurabad (main campus)</option>
+                        <option value="gulshan">Gulshan</option>
+                        <option value="malir">Malir</option>
+                        <option value="numaish">Numaish</option>
+                    </select>
+                </div> <!--options-->
+                
+                <div class="options">
+                    <label for="class">Select Class Prefence</label>
+                    <select id="class">
+                        <option value="select-class-prefence">Select Class Prefence</option>
+                        <option value="monday-to-friday">(Monday to Friday)</option>
+                        <option value="saturday-tosunday">(Saturday to Sunday)</option>
+                        <option value="both">Both</option>
+                    </select>
+                </div> <!--options-->
+            </div> <!--row-->
+                
+            <div class="row full">
+                <div class="options">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Full Name" maxlength="20" required>
+                </div> <!--options-->
+
+                <div class="options">
+                    <label for="fathername">Father Name</label>
+                    <input type="text" id="fathername" placeholder="Father Name" maxlength="20">
+                </div> <!--options-->
+            </div> <!--row-->
+                
+            <div class="row full">
+                <div class="options">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+                </div> <!--options-->
+                
+                <div class="options">
+                    <label for="phone">Phone</label>
+                    <input type="number" id="phone" placeholder="Phone">
+                </div> <!--options-->
+            </div> <!--row-->
+                
+            <div class="row full">
+                <div class="options">
+                    <label for="cnic">CNIC</label>
+                    <input type="number" id="cnic" placeholder="CNIC">
+                </div> <!--options-->
+
+                <div class="options">
+                    <label for="fathercnic">Father's CNIC (optional)</label>
+                    <input type="number" id="fathercnic" placeholder="Father's CNIC (optional)">
+                </div> <!--options-->
+            </div> <!--row-->
+                
+            <div class="row full">
+                <div class="options">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob">
+                </div> <!--options-->
+
+                <div class="options">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="select-your-gender">Select Your Gander</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div> <!--options-->
+            </div> <!--row-->
+            
+            <div class="row">
+                <div class="options">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="Full-Address">
+                </div> <!--options-->
+            </div> <!--row-->
+
+            <div class="row">
+                <div class="options">
+                    <label for="qualification">Last Qualification</label>
+                    <select id="qualification">
+                        <option value="last-qualification">Last Qualification</option>
+                        <option value="matric">Matric</option>
+                        <option value="intermidiate">Intermidiate</option>
+                        <option value="intermidiate">Intermidiate</option>
+                        <option value="undergraduate">Undergraduate</option>
+                        <option value="graduate">Graduate</option>
+                        <option value="masters">Masters</option>
+                        <option value="phd">PHD</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div> <!--options-->
+            </div> <!--row-->
+
+            <div class="row">
+                <div class="options">
+                    <label for="laptop">Do you have a Laptop?</label>
+                    <select id="laptop">
+                        <option value="do-you-have-a-laptop?">Do you have a Laptop?</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div> <!--options-->
+            </div> <!--row-->
+
+            <div class="user-image">
+                <div class="img-sec">
+                    <input type="file" id="userImage">
+                    <label for="userImage">+Upload</label>
+                    <img src="" class="userImageDisplay">
+                </div> <!--img-sec-->
+                <div class="text-sec">
+                    <ul>
+                        <li>With white or blue background</li>
+                        <li>File size must be less than 1MB</li>
+                        <li>File type: jpg, jpeg, png</li>
+                        <li>Upload your recent passport size picture</li>
+                        <li>Your Face should be clearly visible without any Glasses</li>
+                    </ul>
+                </div> <!--text-sec-->
+            </div> <!--user-image-->
+
+            <div class="text">
+                <ol>
+                    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+                    <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+                    <li>Defiance will render my admission canceled at any point in time.</li>
+                    <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                    <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+                </ol>
+            </div>
+
+            <button onclick="submit()">Submit</button>
+
+        </div> <!--user-details-->
+
+
+
+
+        <!-- Download ID Card -->
+
+        <div class="id-card">
+            <label for="downloadIdCard">CNIC (Which you provided during form submission)</label>
+            <input type="number" maxlength="13" placeholder="CNIC (Which you provided during form submission)" id="cnicSearch">
+            <button id="search">SUBMIT</button>
+            <table>
+                <tr>
+                    <th>Course/Event</th>
+                    <th>Roll Number</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <!-- Results -->
+
+        <div class="results">
+            <label for="downloadIdCard">Enter your Roll number and View I'D CARD</label>
+            <input type="number" maxlength="13" placeholder="Roll (Which you provided during Download Area)" id="resultsSearch">
+            <button id="resultButton">SUBMIT</button>
+
+            <div class="card">
+                <div class="front-side">
+                    <img src="./Images/smit-logo.png" class="smit-logo">
+                    <img src="./Images/smit-fullform.PNG" class="smit-fullform">
+                    <img src="./Images/youtube.png" alt="" class="cardUserImg">
+                    <h1 class="cardUserName"></h1>
+                    <p class="cardCourseName"></p>
+                    <span><strong class="course-code"></strong> - <strong class="card-roll-number"></strong></span>
+
+                </div>
+                <div class="back-side">
+                    <div class="back-details">
+                    <div class="back-option"><span>Name: </span> <h2 id="userNameBack">Samar</h2></div>
+                    <div class="back-option"><span>Father name: </span> <h2 id="fatherNameBack">Samar</h2></div>
+                    <div class="back-option"><span>CNIC: </span> <h2 id="cnicBack">Samar</h2></div>
+                    <div class="back-option"><span>Course: </span> <h2 id="courseBack">Samar</h2></div>
+                    </div>
+                    <div class="qrCode">
+                        <img src="./Images/qrcode.PNG" alt="">
+                    </div>
+                    <div class="sign-back">
+                        <span>Issuing authority</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Alert --> 
+        <div class="alert">
+            <h1>Not Found</h1>
+            <button id="alertBtn">Close</button>
+        </div>
+
+
+    </div> <!--container-->
+
+    <script src="./app.js"></script>
+</body>
+</html>
